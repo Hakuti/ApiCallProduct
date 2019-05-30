@@ -1,5 +1,6 @@
 #  Create a basic connection to SocketIO server
 
+This code will not work unless you allow for Aribtrary Loads in your Info.plist. Using Arbitrary loads is not the best way for using in production, use the other AppTransportSecurity settings to allow for specific domain usage. 
 
 ```import UIKit
 import SocketIO
